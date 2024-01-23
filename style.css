@@ -266,12 +266,11 @@ input[type = checkbox]:checked + .taskdets h4{
 }
 
 #inputBox{
-    width: fit-content;
+    width: 60vw;
 }
 
 #inputBox input{
     height: 30px;
-    width: 60vw;
     font-size: 22px;
     border: none;
     border-bottom: 2px solid black;
