@@ -58,7 +58,7 @@ html, body{
     position: relative;
     overflow: hidden;
     z-index: 10;
-    /* scale: 0; */
+    scale: 0;
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
 }
 
@@ -353,7 +353,7 @@ footer{
 
 .container{
     position: absolute;
-    bottom: 2vmin;
+    bottom: -4vmin;
 }
 
 .squid {
