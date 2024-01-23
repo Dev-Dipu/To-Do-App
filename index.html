@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cover">
+        <span>
+            <i class="ri-list-check-3"></i>
+        </span>
+        <p>To Do List</p>
+    </div>
+    <div id="main">
+        <div id="nav">
+            <i class="ri-settings-3-fill"></i>
+            <i class="ri-information-line"></i>
+        </div>
+        <div id="info">
+            <h2>Hey Name Your's</h2>
+        <h1>To-do's</h1>
+        <div id="complete">
+        </div>
+        </div>
+        <div id="tasklist">
+            <div class="task">
+                <input type="checkbox" name="task">
+                <div class="taskdets">
+                    <h4>Write your task here</h4>
+                <div class="time">09:30pm</div>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox" name="task">
+                <div class="taskdets">
+                    <h4>Longpress to delete</h4>
+                <div class="time">09:30pm</div>
+                </div>
+            </div>
+            </div>
+        <button class="btn" id="add"><i class="ri-add-fill"></i>ADD</button>
+        <div id="taskpanel">
+            <input type="text" id="newtask" placeholder="To-Do Name">
+            <input type="time" id="newtime" value="09:00">
+            <div id="btndiv">
+                <button class="btn" id="cancel">Cancel</button>
+                <button class="btn" id="submit">Submit</button>
+            </div>
+        </div>
+        <div id="welcomepage">
+            <div id="heading">
+            <h1>Today's</h1>
+            <h1>To-Do's</h1>
+            </div>
+                <div id="inputBox">
+                    <input type="text" placeholder="NickName">
+                </div>
+                
+                <button id="getStart" class="btn">Get Started</button>
+                <div class="container">
+                    <div class="squid">
+                        <div class="shine"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/developer_dipu_"><i id="insta" class="ri-instagram-fill"></i></a>
+                <p id="copy">&copy;DeveloperDipu</p>
+        </div>
+    </div>
+    <footer>
+        <p>&gt;_&lt; Coded by Developer Dipu.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
