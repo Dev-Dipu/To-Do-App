@@ -58,7 +58,7 @@ html, body{
     position: relative;
     overflow: hidden;
     z-index: 10;
-    scale: 0;
+    /* scale: 0; */
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
 }
 
@@ -271,6 +271,7 @@ input[type = checkbox]:checked + .taskdets h4{
 
 #inputBox input{
     height: 30px;
+    width: 60vw;
     font-size: 22px;
     border: none;
     border-bottom: 2px solid black;
@@ -350,6 +351,11 @@ footer{
 
 
 /* squid defined */
+
+.container{
+    position: absolute;
+    bottom: 2vmin;
+}
 
 .squid {
     scale: 0.3;
