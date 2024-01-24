@@ -52,7 +52,7 @@ html, body{
 
 #main{
     background-color: white;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding: 4vw 6vw;
     position: relative;
@@ -277,6 +277,7 @@ input[type = checkbox]:checked + .taskdets h4{
     outline: none;
     padding: 2%;
     text-transform: capitalize;
+    text-align: center;
 }
 
 #inputBox input:focus{
@@ -284,17 +285,7 @@ input[type = checkbox]:checked + .taskdets h4{
 }
 
 #inputBox input::placeholder{
-    color: black;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-#inputBox input:focus::placeholder{
-    color: black;
-    left: 2%;
-    transform: translate(0%);
-    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.6s;
+    color: black   
 }
 
 
