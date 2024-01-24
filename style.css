@@ -238,8 +238,8 @@ input[type = checkbox]:checked + .taskdets h4{
 }
 
 #welcomepage{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: white;
     position: absolute;
     left: 0;
@@ -266,7 +266,8 @@ input[type = checkbox]:checked + .taskdets h4{
 }
 
 #inputBox{
-    width: 60vw;
+    width: 60%;
+    overflow: hidden;
 }
 
 #inputBox input{
@@ -277,7 +278,6 @@ input[type = checkbox]:checked + .taskdets h4{
     outline: none;
     padding: 2%;
     text-transform: capitalize;
-    text-align: center;
 }
 
 #inputBox input:focus{
@@ -301,7 +301,7 @@ input[type = checkbox]:checked + .taskdets h4{
 
 #insta{
     position: absolute;
-    bottom: 3.2vh;
+    bottom: 20px;
     font-size: 3vh;
     opacity: 0.4;
     left: 50%;
@@ -319,7 +319,7 @@ a{
 
 #copy{
     position: absolute;
-    bottom: 1vh;
+    bottom: 5px;
     left: 50%;
     transform: translate(-50%);
     font-weight: 500;
@@ -344,7 +344,7 @@ footer{
 
 .container{
     position: absolute;
-    bottom: -4vmin;
+    bottom: -5%;
 }
 
 .squid {
