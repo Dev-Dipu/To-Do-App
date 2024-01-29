@@ -345,10 +345,10 @@ footer{
 .container{
     position: absolute;
     bottom: -5%;
+    scale: 0.3;
 }
 
 .squid {
-    scale: 0.3;
 	height: 18.75em;
 	width: 18.75em;
 	background: linear-gradient(#f01c8a, #f53e2f);
